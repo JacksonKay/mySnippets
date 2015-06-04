@@ -6,7 +6,7 @@
 // IDECodeSnippetIdentifier: AFF00B74-F80C-4358-BA0E-D7105718DC9C
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
-// IDECodeSnippetVersion: 0
+// IDECodeSnippetVersion: 2
 NSMutableParagraphStyle *para = [[NSMutableParagraphStyle alloc]init];
         para.lineSpacing = 8;
         NSAttributedString *attrStr = [[NSAttributedString alloc]initWithString:model.description attributes:@{NSFontAttributeName:SYSTEMFONT(14),NSParagraphStyleAttributeName:para,NSForegroundColorAttributeName:RGB(163, 163, 162)}];
