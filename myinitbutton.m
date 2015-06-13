@@ -11,7 +11,7 @@ UIButton *myBabyButton = [UIButton buttonWithType:UIButtonTypeCustom];
     myBabyButton.frame = CGRectMake(kLeftSpacing, 50, 4*16, 30);
     [myBabyButton setTitle:@"我的宝宝" forState:UIControlStateNormal];
     [myBabyButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    myBabyButton.titleLabel.font = APP_FONT(16);
+    myBabyButton.titleLabel.font = SYSTEMFONT(16);
     myBabyButton.layer.masksToBounds = YES;
     myBabyButton.layer.cornerRadius = 25;
     [myBabyButton addTarget:self action:@selector(myBabyButtonClick:) forControlEvents:UIControlEventTouchUpInside];
