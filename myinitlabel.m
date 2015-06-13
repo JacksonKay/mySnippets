@@ -8,7 +8,7 @@
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
 UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
-            label.font = APP_FONT(16);
+            label.font = SYSTEMFONT(16);
             label.textColor = COLOR_LIGHT_GRAY;
             label.textAlignment = NSTextAlignmentCenter;
             label.text = @"";
